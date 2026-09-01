@@ -1,0 +1,205 @@
+{
+    "kebutuhan": [
+        "Administrasi/Perkantoran",
+        "Programming",
+        "Desain Grafis",
+        "Editing Video"
+    ],
+    "brand": [
+        "AGB",
+        "Acer",
+        "Air",
+        "Apple",
+        "Asus",
+        "Avita",
+        "Chuwi",
+        "Colorful",
+        "Dell",
+        "Gigabyte",
+        "HP",
+        "Honor",
+        "Huawei",
+        "Infinix",
+        "LG",
+        "Lenovo",
+        "MSI",
+        "Microsoft",
+        "Ninkear",
+        "Primebook",
+        "Razer",
+        "Red",
+        "Samsung",
+        "Tecno",
+        "Thomson",
+        "Ultimus",
+        "Wings",
+        "Xiaomi",
+        "Zebronics"
+    ],
+    "processor_brand": [
+        "AMD",
+        "Intel",
+        "Apple",
+        "Qualcomm",
+        "MediaTek",
+        "Other"
+    ],
+    "processor_series": [
+        "Celeron",
+        "Core Ultra 5",
+        "Core Ultra 7",
+        "Core Ultra 9",
+        "Core i3",
+        "Core i5",
+        "Core i7",
+        "Core i9",
+        "M1",
+        "M2",
+        "Other",
+        "Ryzen 3",
+        "Ryzen 5",
+        "Ryzen 7",
+        "Ryzen 9",
+        "Snapdragon"
+    ],
+    "processor_level": [
+        "Entry",
+        "Basic",
+        "Mid",
+        "High",
+        "Premium"
+    ],
+    "ram_class": [
+        "Low",
+        "Standard",
+        "High",
+        "Premium"
+    ],
+    "memory_type": [
+        "SSD",
+        "eMMC Storage",
+        "Hard Disk"
+    ],
+    "storage_class": [
+        "Low",
+        "Basic",
+        "Standard",
+        "Large",
+        "Very Large"
+    ],
+    "ram_min": [
+        4,
+        8,
+        12,
+        16,
+        18,
+        24,
+        32,
+        36,
+        48,
+        64,
+        96
+    ],
+    "storage_min": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1000,
+        2000,
+        4000
+    ],
+    "gpu_brand": [
+        "AMD",
+        "Intel",
+        "NVIDIA",
+        "Apple",
+        "ARM",
+        "Qualcomm",
+        "Unknown"
+    ],
+    "gpu_type": [
+        "Dedicated",
+        "Integrated"
+    ],
+    "gpu_level": [
+        "Dedicated Entry",
+        "Dedicated High",
+        "Dedicated Premium",
+        "Integrated Basic"
+    ],
+    "os_family": [
+        "Chrome",
+        "DOS",
+        "Linux",
+        "Mac",
+        "Other",
+        "Windows"
+    ],
+    "display_class": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "resolution_class": [
+        "Standard",
+        "Full HD",
+        "High Resolution"
+    ],
+    "touch_screen": [
+        "Semua",
+        "Yes",
+        "No"
+    ],
+    "warranty_class": [
+        "1 Year",
+        "2 Years",
+        "3 Years or More"
+    ],
+    "jumlah_hasil": [
+        5,
+        10,
+        15,
+        20
+    ],
+    "price_class": [
+        "Low",
+        "Medium",
+        "High",
+        "Premium"
+    ],
+    "budget_options": [
+        {
+            "label": "Semua budget",
+            "value": null
+        },
+        {
+            "label": "Maksimal Rp5 juta",
+            "value": 5000000
+        },
+        {
+            "label": "Maksimal Rp8 juta",
+            "value": 8000000
+        },
+        {
+            "label": "Maksimal Rp12 juta",
+            "value": 12000000
+        },
+        {
+            "label": "Maksimal Rp15 juta",
+            "value": 15000000
+        },
+        {
+            "label": "Maksimal Rp20 juta",
+            "value": 20000000
+        },
+        {
+            "label": "Maksimal Rp30 juta",
+            "value": 30000000
+        }
+    ],
+    "price_min": 2088100,
+    "price_max": 95188100,
+    "price_note": "Harga telah dikonversi ke Rupiah dari harga asli dataset menggunakan kurs tetap pada tahap preprocessing."
+}

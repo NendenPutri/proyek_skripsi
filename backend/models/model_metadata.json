@@ -1,0 +1,68 @@
+{
+    "nama_proyek": "Sistem Rekomendasi Pemilihan Laptop Berdasarkan Kebutuhan Pengguna",
+    "algoritma": "Naive Bayes",
+    "jenis_model": "Multinomial Naive Bayes dengan One Hot Encoding",
+    "tanggal_training": "2026-06-06 16:45:06",
+    "dataset_awal": {
+        "jumlah_baris": 1018,
+        "jumlah_kolom": 22
+    },
+    "dataset_final": {
+        "jumlah_baris": 940,
+        "jumlah_kolom": 42
+    },
+    "target": "label_kebutuhan",
+    "fitur_model": [
+        "brand_name",
+        "processor_brand",
+        "processor_series",
+        "processor_level",
+        "ram_class",
+        "memory_type",
+        "storage_class",
+        "gpu_brand",
+        "gpu_type",
+        "gpu_level",
+        "os_family",
+        "display_class",
+        "resolution_class",
+        "touchscreen_label",
+        "warranty_class",
+        "price_class"
+    ],
+    "kelas": [
+        "Administrasi/Perkantoran",
+        "Desain Grafis",
+        "Editing Video",
+        "Programming"
+    ],
+    "metrics": {
+        "accuracy": 0.9947,
+        "precision_macro": 0.9917,
+        "recall_macro": 0.9946,
+        "f1_macro": 0.993,
+        "jumlah_data_training": 752,
+        "jumlah_data_testing": 188,
+        "jumlah_fitur_model": 16,
+        "kelas": [
+            "Administrasi/Perkantoran",
+            "Desain Grafis",
+            "Editing Video",
+            "Programming"
+        ]
+    },
+    "file_output": {
+        "dataset_backend": "data/laptops_backend_ready.csv",
+        "dataset_training": "data/laptops_training_ready.csv",
+        "model": "models/naive_bayes_laptop_pipeline.joblib",
+        "frontend_options": "data/frontend_options.json",
+        "classification_report": "reports/classification_report.txt",
+        "confusion_matrix": "reports/confusion_matrix.csv"
+    },
+    "catatan": [
+        "Label kebutuhan dibuat melalui aturan berbasis spesifikasi laptop.",
+        "Kolom price mengikuti satuan dataset asli.",
+        "Harga tidak digunakan sebagai penentu tunggal label.",
+        "Dataset final dapat digunakan pada backend FastAPI."
+    ]
+}
